@@ -71,7 +71,7 @@ export default function Navbar() {
       >
       <div className="container flex h-20 items-center gap-6 px-4 md:px-6">
         <Link href="#hero" className="flex items-center gap-3 text-white" onClick={closeMenu}>
-          <Image src="/logo.png" alt="Silva & Duarte" width={120} height={40} className="w-28 md:w-32" />
+          <Image src="/logogolden.png" alt="Silva & Duarte" width={120} height={40} className="w-28 md:w-32" />
         </Link>
         
         {/* Desktop Menu */}

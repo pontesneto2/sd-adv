@@ -55,17 +55,17 @@ export default function Equipe() {
           {team.map((member, index) => (
             <div
               key={index}
-              className="group relative bg-gradient-to-b from-[#1a1f1d] to-[#252a28] rounded-3xl p-6 transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:shadow-sd-gold/30 flex flex-col"
+              className="group relative bg-gradient-to-b from-[#1a1f1d] to-[#252a28] rounded-3xl p-6 transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:shadow-sd-gold/30 flex flex-col h-full"
             >
               {/* Tag Parceira - Canto superior direito */}
               {member.isParceira && (
-                <div className="absolute top-4 right-4 bg-gradient-to-r from-purple-500/90 to-blue-500/90 backdrop-blur-sm px-3 py-1 rounded-full text-[10px] font-semibold text-white shadow-lg">
+                <div className="absolute top-4 right-4 bg-gradient-to-r from-purple-500/90 to-blue-500/90 backdrop-blur-sm px-3 py-1 rounded-full text-[10px] font-semibold text-white shadow-lg z-10">
                   Adv. Parceira
                 </div>
               )}
 
               {/* Foto */}
-              <div className="relative w-40 h-40 mx-auto mb-4 rounded-full overflow-hidden border-4 border-sd-gold/30 group-hover:border-sd-gold transition-all duration-300">
+              <div className="relative w-40 h-40 mx-auto mb-4 rounded-full overflow-hidden border-4 border-sd-gold/30 group-hover:border-sd-gold transition-all duration-300 flex-shrink-0">
                 <Image
                   src={member.photo}
                   alt={member.name}
@@ -75,19 +75,19 @@ export default function Equipe() {
               </div>
 
               {/* Badge OAB */}
-              <div className="flex justify-center mb-3">
+              <div className="flex justify-center mb-3 flex-shrink-0">
                 <span className="px-4 py-1 rounded-full text-xs font-semibold bg-sd-gold/20 text-sd-gold border border-sd-gold/30">
                   {member.oab}
                 </span>
               </div>
 
               {/* Nome */}
-              <h3 className="text-xl font-bold text-center mb-2 group-hover:text-sd-gold transition-colors">
+              <h3 className="text-xl font-bold text-center mb-2 group-hover:text-sd-gold transition-colors flex-shrink-0">
                 {member.name}
               </h3>
 
-              {/* Especialidade */}
-              <p className="text-gray-400 text-sm text-center mb-6 leading-relaxed flex-grow">
+              {/* Especialidade - área que cresce */}
+              <p className="text-gray-400 text-sm text-center mb-6 leading-relaxed flex-grow min-h-[3rem]">
                 {member.role}
               </p>
 
@@ -96,7 +96,7 @@ export default function Equipe() {
                 href={`https://wa.me/${member.whatsapp}`}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="block w-full text-center rounded-full px-4 py-3 font-normal bg-gradient-to-tr from-sd-gold to-sd-gold-2 text-black transition-all duration-300 hover:-translate-y-1 hover:shadow-lg text-sm mt-auto"
+                className="block w-full text-center rounded-full px-4 py-3 font-normal bg-gradient-to-tr from-sd-gold to-sd-gold-2 text-black transition-all duration-300 hover:-translate-y-1 hover:shadow-lg text-sm flex-shrink-0"
               >
                 Falar com {member.name.split(' ')[1]}
               </a>

@@ -18,7 +18,7 @@ export default function Hero() {
         <h1 className="font-serif mt-4 text-4xl sm:text-5xl md:text-6xl lg:text-7xl leading-tight [text-wrap:balance] font-bold">
           Nosso compromisso é com a justiça!
         </h1>
-        <p className="mt-8 text-sd-gold font-bold text-xl sm:text-2xl md:text-3xl tracking-wide px-4 drop-shadow-lg">
+        <p className="mt-8 text-sd-gold font-bold text-lg sm:text-xl md:text-2xl tracking-wide px-4 drop-shadow-lg">
           Referência em Direito Trabalhista, Previdenciário e Cível
         </p>
         <div className="mt-8 flex flex-wrap items-center justify-center gap-3">
