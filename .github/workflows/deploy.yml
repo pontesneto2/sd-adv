@@ -1,9 +1,11 @@
 name: Deploy to Hostinger
 
+# TEMPORARIAMENTE DESATIVADO - Deploy manual até ajustar
 on:
-  push:
-    branches:
-      - main
+  workflow_dispatch: # Manual apenas
+  # push:
+  #   branches:
+  #     - main
 
 jobs:
   build-and-deploy:
