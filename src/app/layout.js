@@ -68,12 +68,19 @@ export const metadata = {
       'max-snippet': -1,
     },
   },
+  
+  // Theme color para mobile (barra de status)
+  themeColor: '#0a1612',
 };
 
 export default function SiteLayout({ children }) {
   return (
-    <html lang="pt-BR">
-      <body>
+    <html lang="pt-BR" className="bg-sd-green">
+      <head>
+        <meta name="theme-color" content="#0a1612" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+      </head>
+      <body className="bg-sd-green">
         <ScrollProgress />
         <Navbar />
         <main>

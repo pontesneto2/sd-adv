@@ -15,7 +15,7 @@ export default function Hero() {
         <span className="inline-block rounded-full border border-white/30 bg-white/10 px-3 py-1 text-xs tracking-wide backdrop-blur-md">
           SILVA & DUARTE ADVOCACIA
         </span>
-        <h1 className="font-serif mt-4 text-4xl sm:text-5xl md:text-6xl lg:text-7xl leading-tight [text-wrap:balance] font-bold">
+        <h1 className="font-serif mt-4 text-5xl sm:text-6xl md:text-7xl lg:text-8xl leading-tight [text-wrap:balance] font-bold break-words">
           Nosso compromisso é com a justiça!
         </h1>
         <p className="mt-8 text-sd-gold font-bold text-lg sm:text-xl md:text-2xl tracking-wide px-4 drop-shadow-lg">
