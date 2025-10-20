@@ -4,6 +4,13 @@ import WhatsFloat from '@/components/layout/WhatsFloat';
 import BackToTop from '@/components/layout/BackToTop';
 import ScrollProgress from '@/components/ui/ScrollProgress';
 
+export const viewport = {
+  themeColor: '#0a1612',
+  width: 'device-width',
+  initialScale: 1,
+  maximumScale: 5,
+};
+
 export const metadata = {
   metadataBase: new URL('https://silvaduarteadvogados.com'),
   title: 'Silva & Duarte Advocacia | Direito Trabalhista, Previdenciário e Cível',
@@ -68,9 +75,6 @@ export const metadata = {
       'max-snippet': -1,
     },
   },
-  
-  // Theme color para mobile (barra de status)
-  themeColor: '#0a1612',
 };
 
 export default function SiteLayout({ children }) {
