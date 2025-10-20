@@ -13,7 +13,7 @@ export default function Footer() {
           <div className="flex flex-col">
             <Link href="#hero" className="inline-block mb-6">
               <Image 
-                src="/logo.png" 
+                src="/logogolden.png" 
                 alt="Silva & Duarte Advocacia" 
                 width={240} 
                 height={80}
