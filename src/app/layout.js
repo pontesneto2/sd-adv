@@ -79,15 +79,15 @@ export const metadata = {
 
 export default function SiteLayout({ children }) {
   return (
-    <html lang="pt-BR" className="bg-sd-green">
+    <html lang="pt-BR" className="bg-sd-green overflow-x-hidden">
       <head>
         <meta name="theme-color" content="#0a1612" />
         <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
       </head>
-      <body className="bg-sd-green">
+      <body className="bg-sd-green m-0 p-0 overflow-x-hidden w-full">
         <ScrollProgress />
         <Navbar />
-        <main>
+        <main className="overflow-x-hidden w-full">
           {children}
         </main>
         <WhatsFloat />

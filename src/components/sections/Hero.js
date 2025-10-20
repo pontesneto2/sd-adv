@@ -3,7 +3,7 @@ import { WHATS_URL } from '@/lib/constants';
 
 export default function Hero() {
   return (
-    <header id="hero" className="relative grid h-screen place-items-center text-white bg-sd-green">
+    <header id="hero" className="relative grid h-screen min-h-screen place-items-center text-white bg-sd-green w-full overflow-hidden">
       <video
         className="absolute inset-0 h-full w-full object-cover contrast-[1.1] brightness-50"
         autoPlay muted loop playsInline
@@ -11,7 +11,7 @@ export default function Hero() {
       >
         <source src="/hero.mp4" type="video/mp4" />
       </video>
-      <div className="relative mx-auto max-w-3xl px-4 md:px-5 text-center">
+      <div className="relative mx-auto max-w-3xl px-4 md:px-5 text-center w-full">
         <span className="inline-block rounded-full border border-white/30 bg-white/10 px-3 py-1 text-xs tracking-wide backdrop-blur-md">
           SILVA & DUARTE ADVOCACIA
         </span>
