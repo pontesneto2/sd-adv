@@ -6,22 +6,27 @@ export default function Areas() {
     {
       Icon: Icons.Briefcase,
       title: 'Direito Trabalhista',
-      description: 'Verbas rescisórias, horas extras, justa causa e mais.',
+      description: 'Verbas rescisórias, trabalho sem registro, acidente de trabalho, horas extras.',
     },
     {
       Icon: Icons.Shield,
       title: 'Direito Previdenciário',
-      description: 'Aposentadorias, revisões e benefícios por incapacidade.',
+      description: 'Aposentadoria, BPC LOAS (Idoso e Deficiente), Auxilio por incapacidade.',
     },
     {
       Icon: Icons.FileText,
       title: 'Direito Civil e Contratual',
-      description: 'Contratos, indenizações, consumidor e execuções.',
+      description: 'Revisional de Contrato, Contratos de compra e venda, aluguel ou doação, Execuções.',
+    },
+    {
+      Icon: Icons.ShoppingCart,
+      title: 'Direito do Consumidor',
+      description: 'Ações indenizatórias, Ações Bancárias, Vício Oculto, Cobrança e/ou Negativação indevida.',
     },
     {
       Icon: Icons.Home,
       title: 'Direito Imobiliário',
-      description: 'Usucapião, despejo, locação e regularização.',
+      description: 'Usucapião, despejo, locação e regularização de imóvel.',
     },
     {
       Icon: Icons.Users,
@@ -72,7 +77,7 @@ export default function Areas() {
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-2 rounded-full px-8 py-4 font-normal bg-gradient-to-tr from-sd-gold to-sd-gold-2 text-black transition-all duration-300 hover:-translate-y-1 hover:shadow-xl hover:from-sd-gold-2 hover:to-sd-gold"
             >
-              Fale agora pelo WhatsApp
+              Consulte um advogado
             </a>
           </div>
         </FadeIn>

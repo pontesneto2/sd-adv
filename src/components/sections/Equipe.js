@@ -5,7 +5,7 @@ export default function Equipe() {
   const team = [
     {
       name: 'Dra. Natalia Duarte',
-      role: 'Direito Trabalhista, Previdenciário e Cível.',
+      role: 'Direito Trabalhista, Previdenciário, Cível e Imobiliário.',
       oab: 'OAB 46.040',
       photo: '/natalia.jpeg',
       whatsapp: '5585994404197',

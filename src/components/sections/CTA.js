@@ -15,7 +15,7 @@ export default function CTA() {
       <div className="container mx-auto px-6 md:px-8 max-w-4xl relative z-10 text-center">
         <ScaleIn>
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
-            Pronto para defender seus direitos?
+            Como posso te ajudar?
           </h2>
           <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto leading-relaxed">
             Nossa equipe está pronta para analisar seu caso gratuitamente. 
@@ -31,7 +31,7 @@ export default function CTA() {
               rel="noopener"
               className="text-lg px-8 py-4 bg-sd-gold hover:bg-sd-gold-2"
             >
-              Agendar Consulta Gratuita
+              FALE COM UM ESPECIALISTA AGORA
             </Button>
             <a
               href="#contato"

@@ -64,27 +64,8 @@ export default function Stats() {
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
-            {/* Card Dra. Natalia */}
+            {/* Card Dr. Gabriel - PRIMEIRO (maior) */}
             <div className="bg-[#1a1f1d] rounded-2xl p-8 border border-gray-700/50 hover:border-sd-gold/70 transition-all duration-300 hover:scale-[1.03] hover:shadow-2xl hover:shadow-sd-gold/20 animate-slide-up">
-              <div className="mb-3">
-                <Counter end={600} suffix="+" />
-              </div>
-              <div className="text-lg mb-2">Processos da Dra. Natalia</div>
-              <div className="text-sm text-gray-400">
-                Fonte:{' '}
-                <a
-                  href="https://www.jusbrasil.com.br/busca?q=Natalia+Ingrid+Mendes+Duarte"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-sd-gold hover:text-sd-gold-2 hover:underline transition-colors"
-                >
-                  Jusbrasil
-                </a>
-              </div>
-            </div>
-
-            {/* Card Dr. Gabriel */}
-            <div className="bg-[#1a1f1d] rounded-2xl p-8 border border-gray-700/50 hover:border-sd-gold/70 transition-all duration-300 hover:scale-[1.03] hover:shadow-2xl hover:shadow-sd-gold/20 animate-slide-up-delay">
               <div className="mb-3">
                 <Counter end={7000} suffix="+" />
               </div>
@@ -101,9 +82,28 @@ export default function Stats() {
                 </a>
               </div>
             </div>
+
+            {/* Card Dra. Natalia - SEGUNDO */}
+            <div className="bg-[#1a1f1d] rounded-2xl p-8 border border-gray-700/50 hover:border-sd-gold/70 transition-all duration-300 hover:scale-[1.03] hover:shadow-2xl hover:shadow-sd-gold/20 animate-slide-up-delay">
+              <div className="mb-3">
+                <Counter end={600} suffix="+" />
+              </div>
+              <div className="text-lg mb-2">Processos da Dra. Natalia</div>
+              <div className="text-sm text-gray-400">
+                Fonte:{' '}
+                <a
+                  href="https://www.jusbrasil.com.br/busca?q=Natalia+Ingrid+Mendes+Duarte"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-sd-gold hover:text-sd-gold-2 hover:underline transition-colors"
+                >
+                  Jusbrasil
+                </a>
+              </div>
+            </div>
           </div>
 
-          {/* Card 24H - Centralizado */}
+          {/* Card 24H - EM BAIXO Centralizado */}
           <div className="flex justify-center">
             <div className="bg-[#1a1f1d] rounded-2xl p-8 border border-gray-700/50 hover:border-sd-gold/70 transition-all duration-300 hover:scale-[1.03] hover:shadow-2xl hover:shadow-sd-gold/20 max-w-md w-full animate-slide-up-delay-2">
               <div className="mb-3">

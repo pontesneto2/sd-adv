@@ -27,26 +27,26 @@ export default function Navbar() {
     <>
       {/* Faixa Superior Fixa */}
       <div 
-        className={`${showTopBar ? 'h-8 opacity-100' : 'h-0 opacity-0'} overflow-hidden transition-all duration-300 bg-sd-green border-b border-sd-gold/20 hidden md:block fixed inset-x-0 top-0 z-[60]`}
+        className={`${showTopBar ? 'h-8 opacity-100' : 'h-0 opacity-0'} overflow-hidden transition-all duration-300 bg-sd-gold border-b border-sd-gold/30 hidden md:block fixed inset-x-0 top-0 z-[60]`}
       >
         <div className="container mx-auto px-6 h-8 flex items-center justify-end">
-          <div className="flex items-center gap-6 text-xs text-gray-300">
-            <span className="text-sd-gold">Silva & Duarte Advocacia Especializada</span>
-            <span className="text-gray-500">|</span>
+          <div className="flex items-center gap-6 text-xs text-sd-green">
+            <span className="font-semibold">Silva & Duarte Advocacia Especializada</span>
+            <span className="text-sd-green/40">|</span>
             <a 
               href="tel:+5585994404197" 
-              className="hover:text-sd-gold transition-colors flex items-center gap-1.5"
+              className="hover:text-sd-green/80 transition-colors flex items-center gap-1.5"
             >
               <Icons.Phone className="w-3 h-3" />
               (85) 9 9440-4197
             </a>
-            <span className="text-gray-500">|</span>
+            <span className="text-sd-green/40">|</span>
             <div className="flex items-center gap-3">
               <a 
                 href={SOCIAL.instagram} 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="hover:text-sd-gold transition-colors"
+                className="hover:text-sd-green/80 transition-colors"
                 aria-label="Instagram"
               >
                 <Icons.Instagram className="w-4 h-4" />
@@ -55,7 +55,7 @@ export default function Navbar() {
                 href={WHATS_URL} 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="hover:text-sd-gold transition-colors"
+                className="hover:text-sd-green/80 transition-colors"
                 aria-label="WhatsApp"
               >
                 <Icons.WhatsApp className="w-4 h-4" />
