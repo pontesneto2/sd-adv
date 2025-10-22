@@ -69,7 +69,7 @@ export default function Stats() {
               <div className="mb-3">
                 <Counter end={7000} suffix="+" />
               </div>
-              <div className="text-lg mb-2">Processos do Dr. Gabriel</div>
+              <div className="text-lg mb-2">Processos</div>
               <div className="text-sm text-gray-400">
                 Fonte:{' '}
                 <a
